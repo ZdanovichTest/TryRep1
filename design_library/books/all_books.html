@@ -1,0 +1,158 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя тестовая страница</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/books.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/htmlincludejs"></script>
+</head>
+
+<body>
+    <include src="/elements/header.html"></include>
+    <div class="content-wrapper">
+        <div class="content">
+            <div class="base-container">
+                <div class="books">
+                    <div class="book">
+                        <div class="book-image">
+                            <div class="img-inner">
+                                <a href="#" class="inner-skew">
+                                    <img src="/imgs/books/winters.jpg" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="book-info-wrapper">
+                            <span class="book-mark">
+                                <a href="#"><i class="fa-regular fa-bookmark fa-lg"></i></a>
+                            </span>
+                            <div class="book-info">
+                                <div class="book-detail">
+                                    <a href="#" class="book-title">
+                                        <h4>Winters</h4>
+                                    </a>
+                                    <p>by Juilia Adrian</p>
+                                    <span class="book-rating">
+                                        <i class="fa-solid fa-star fa-lg"></i>
+                                        <i>7,6</i>
+                                    </span>
+                                </div>
+                                <div class="book-progress">
+                                    <progress value="4" max="100"></progress>
+                                </div>
+                                <div class="book-control">
+                                    <button class="book-read">Читать</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book">
+                        <div class="book-image">
+                            <div class="img-inner">
+                                <a href="#" class="inner-skew">
+                                    <img src="/imgs/books/end_of_watch.jpg" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="book-info-wrapper">
+                            <span class="book-mark">
+                                <i class="fa fa-bookmark-o fa-lg"></i>
+                            </span>
+                            <div class="book-info">
+                                <div class="book-detail">
+                                    <a href="#" class="book-title">
+                                        <h4>End of watch</h4>
+                                    </a>
+                                    <p>by Stephen King</p>
+                                    <span class="book-rating">
+                                        <i class="fa-regular fa-star fa-lg"></i>
+                                        <i></i>
+                                    </span>
+                                </div>
+                                <div class="book-progress">
+                                    <progress value="72" max="100"></progress>
+                                </div>
+                                <div class="book-control">
+                                    <button class="book-read">Читать</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book">
+                        <div class="book-image">
+                            <div class="img-inner">
+                                <a href="#" class="inner-skew">
+                                    <img src="/imgs/books/gorgon.jpg" alt="Winters" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="book-info-wrapper">
+                            <span class="book-mark">
+                                <i class="fa fa-bookmark-o fa-lg"></i>
+                            </span>
+                            <div class="book-info">
+                                <div class="book-detail">
+                                    <a href="#" class="book-title">
+                                        <h4>Уродина</h4>
+                                    </a>
+                                    <p>Скотт Вестерфельд</p>
+                                    <span class="book-rating">
+                                        <i class="fa fa-star-o fa-lg" aria-hidden="true"></i>
+                                        <i></i>
+                                    </span>
+                                </div>
+                                <div class="book-progress">
+                                    <progress value="72" max="100"></progress>
+                                </div>
+                                <div class="book-control">
+                                    <button class="book-read">Читать</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book">
+                        <div class="book-image">
+                            <div class="img-inner">
+                                <a href="#" class="inner-skew">
+                                    <img src="/imgs/books/spirit.jpg" alt="Spirit" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="book-info-wrapper">
+                            <span class="book-mark">
+                                <i class="fa fa-bookmark fa-lg"></i>
+                            </span>
+                            <div class="book-info">
+                                <div class="book-detail">
+                                    <a href="#" class="book-title">
+                                        <h4>The Spirit</h4>
+                                    </a>
+                                    <p>Red Booka</p>
+                                    <span class="book-rating">
+                                        <i class="fa fa-star fa-lg" aria-hidden="true"></i>
+                                        <i>9,0</i>
+                                    </span>
+                                </div>
+                                <div class="book-progress">
+                                    <progress value="100" max="100"></progress>
+                                </div>
+                                <div class="book-control">
+                                    <button class="book-read">Читать</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <include src="/elements/footer.html"></include>
+    </div>
+
+</body>
+
+</html>
